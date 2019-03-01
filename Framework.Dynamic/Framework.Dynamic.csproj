@@ -2,6 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Framework.Services.Dynamic</PackageId>
+    <Authors>Jose Carlos de Jesus Junior</Authors>
+    <Description>It is a .NET Core/Standard library that provides dynamic object creation and query using expression
+</Description>
+    <Copyright>Copyright 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/juninhodigital/Framework.Dynamic/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/juninhodigital/Framework.Dynamic</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/juninhodigital/Framework.Dynamic</RepositoryUrl>
+    <PackageIconUrl>ttps://github.com/juninhodigital/Framework.Core/blob/master/Icons/FS_IconSmall.png?raw=true</PackageIconUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>Extension Methods, Library, Helper, Dynamic, Expando, Expression Builder</PackageTags>
+    <NeutralLanguage>English (United States)</NeutralLanguage>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>true</Optimize>
   </PropertyGroup>
 
   <ItemGroup>
