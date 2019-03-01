@@ -1,5 +1,5 @@
 # Framework.Dynamic
-It is a .NET Core/Standard library that provides dynamic method invocation and object query using expression
+It is a .NET Core/Standard library that provides dynamic object creation and query using expression
 
 Technologies
 - [x] .NET Core and .NET Standard
